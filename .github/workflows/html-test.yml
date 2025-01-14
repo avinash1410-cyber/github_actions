@@ -8,7 +8,7 @@ on:
 
 jobs:
   validate-html:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-runner
     steps:
       - name: Checkout Code
         uses: actions/checkout@v3
